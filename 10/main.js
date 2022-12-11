@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { join } = require("path");
 
 const data = fs.readFileSync("./input", (err, data) => data).toString();
 
